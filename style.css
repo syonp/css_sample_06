@@ -1,0 +1,57 @@
+@charset "UTF-8"; 
+
+body {
+  background-color: gray;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: aliceblue;
+}
+ 
+header   {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  border : 1px white solid;
+  border-radius: 20px;
+  padding: 8px 40px;
+  background-color:lightyellow ;
+  color: gray;
+}
+ 
+main{
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : lightyellow;
+  color: gray;
+}
+a {
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px;
+  color: deepskyblue;
+  background-color: lightblue;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+  
+a:visited {
+  color: yellow;
+}
+
+
+a:hover {
+    background-color: pink;
+}
+table tr:nth-of-type(2n) {
+  background-color: aquamarine;
+}
